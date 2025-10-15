@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '0.0.0.0',
         allowedHosts: [
-          'n8n-webhook-chat.netlify.app',
+          'n8n-webhook-chat.onrender.com',
         ],
       },
       plugins: [react()],
