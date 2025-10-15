@@ -364,6 +364,8 @@ export default defineConfig({
   },
 });
 
+---
+
 ```
 ## 🔧 Available Scripts
 
