@@ -1,0 +1,16 @@
+{
+  "name": "n8n Webhook Chat",
+  "short_name": "n8n Chat",
+  "description": "A sleek chat application that connects to any n8n backend via webhooks. It supports text, audio recording, and file uploads (images, videos, documents), providing a versatile interface for interacting with your custom workflows.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

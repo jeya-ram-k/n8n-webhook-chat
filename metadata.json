@@ -1,0 +1,7 @@
+{
+  "name": "n8n Webhook Chat",
+  "description": "A sleek chat application that connects to any n8n backend via webhooks. It supports text, audio recording, and file uploads (images, videos, documents), providing a versatile interface for interacting with your custom workflows.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
