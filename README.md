@@ -326,8 +326,8 @@ Here is the simple "Echo Bot" workflow, now updated with the necessary nodes and
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/gemini-chat.git
-    cd gemini-chat
+    git clone https://github.com/JeyaramKumaravel/n8n-webhook-chat.git
+    cd n8n-webhook-chat
     ```
 
 2.  **Install Dependencies**
@@ -346,7 +346,6 @@ Here is the simple "Echo Bot" workflow, now updated with the necessary nodes and
 ## 🛠️ Configuration for Public Access
 If you need to expose your local development server to the internet using a service like Cloudflare Tunnel, you must add the tunnel's hostname to Vite's list of allowed hosts.
 - Open the vite.config.js (or vite.config.ts) file located in the root of your project.
-
 - Add a server object to your configuration and include the allowedHosts property with the specified URL. This tells Vite to trust requests coming from that domain.
 
 ```javascript
@@ -364,8 +363,13 @@ export default defineConfig({
     ],
   },
 });
-```
 
+```
+## 🔧 Available Scripts
+
+- **npm run dev** - Start development server
+- **npm run build** - Build for production
+- **npm run preview** - Start production server
 
 ---
 
