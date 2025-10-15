@@ -367,18 +367,20 @@ export default defineConfig({
 ```
 ## 🔧 Available Scripts
 
-- **Start development server**
-  ```bash
-  npm run dev
-  ```
-- **Build for production**
-  ```bash
-  npm run build
-  ```
-- **Start production server**
-  ```bash
-  npm run preview
-  ```
+1.  **Start development server**
+    ```bash
+    npm run dev
+    ```
+
+2.  **Build for production**
+    ```bash
+    npm run build
+    ```
+
+3.  **Start production server**
+    ```bash
+    npm run preview
+    ```
     
 ---
 
